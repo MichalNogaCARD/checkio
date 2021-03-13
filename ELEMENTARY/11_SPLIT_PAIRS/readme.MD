@@ -7,3 +7,4 @@ Output: An iterable of strings.
 Example:
 split_pairs('abcd') == ['ab', 'cd']
 split_pairs('abc') == ['ab', 'c_']
+
