@@ -1,5 +1,5 @@
 def max_digit(number: int) -> int:
-    return int(max(list(str(number))))
+    return int(max(str(number)))
 
 
 if __name__ == '__main__':
