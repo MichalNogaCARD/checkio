@@ -2,7 +2,7 @@ import re
 
 
 def sum_numbers(text: str) -> int:
-    return sum([int(x) for x in text.split(' ') if re.match(r'^\d+$', x)])
+    return sum([int(x) for x in text.split(' ') if x.isdigit()])
 
 
 if __name__ == '__main__':
