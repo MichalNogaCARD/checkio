@@ -2,7 +2,7 @@ import itertools
 
 
 def long_repeat(line: str) -> int:
-    return 0 if len(line) == 0 else max([len(list(group)) for character, group in itertools.groupby(line)])
+    return 0 if len(line) == 0 else max([len(list(group)) for element, group in itertools.groupby(line)])
 
 
 if __name__ == '__main__':
